@@ -146,12 +146,16 @@ button {
 figure {
   width: 20px;
   height: 20px;
+  background: url("../src/img/icons/coin.png") no-repeat;
+  background-position: center center;
+  background-size: contain;
 }
 
 figure img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  display: none;
 }
 
 @media screen and (min-width: 1000px) {
