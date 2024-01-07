@@ -57,7 +57,6 @@ form, .coins-section {
 }
 
 form {
-  /* background-color: violet; */
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -88,24 +87,6 @@ option {
   color: var(--color-text);
 }
 
-/* select, button { 
-  height: 45px;
-  padding: 10px;
-}
-
-select { 
-  margin-left: 20px;
-  background-color: rgb(255 255 255 / 13%);
-  border-radius: var(--default-radius) 0 0 var(--default-radius);
-}
-
-button {
-  background-color: #ff6347;
-  
-  border-radius: 0 5px 5px 0;
-  font-weight: 600;
-} */
-
 #coins-title{
   margin-bottom: 20px;
   font-weight: 700;
@@ -133,30 +114,22 @@ button {
   border-radius: 5px;
 }
 
-.coin_quote span:first-of-type {
-  width: 20%;
-}
-
-.coin_quote span:nth-of-type(2) {
-  /* background-color: #f7c130; */
-  flex-grow: 1;
-  font-weight: 600;
-}
-
-figure {
-  width: 20px;
-  height: 20px;
+.coin_quote div {
+  width: 30px;
+  height: 30px;
   background
   : url("../src/img/icons/coin.png") no-repeat;
   background-position: center center;
   background-size: contain;
 }
 
-figure img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  display: none;
+.coin_quote span:first-of-type {
+  width: 20%;
+}
+
+.coin_quote span:nth-of-type(2) {
+  flex-grow: 1;
+  font-weight: 600;
 }
 
 @media screen and (min-width: 1000px) {
