@@ -19,6 +19,7 @@ jobs:
       - run: cp .htaccess ./dist
 
       # Deploy do front
+      
       - name: Upload from public_html via FTP
         uses: airvzxf/ftp-deployment-action@latest
         with:
