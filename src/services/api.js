@@ -1,4 +1,4 @@
-const BASE_URL = `https://v6.exchangerate-api.com/v6/${import.meta.env.VITE_API_KEY}/latest/`;
+const BASE_URL = 'https://v6.exchangerate-api.com/v6/6e0f19f29fe965d988f61508/latest/';
 
 export function fetchRates(searchedCoin) {
   return fetch(`${BASE_URL}${searchedCoin}`)

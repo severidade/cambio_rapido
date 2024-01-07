@@ -1,7 +1,8 @@
 {
   "name": "trybe_revisao_front",
   "version": "1.0.0",
-  "description": "Introduçao ao Frontend e Javascript assincrono - Casa de Câmbio",
+
+  "description": "Casa de Câmbio",
   "main": "index.js",
   "type": "module",
   "scripts": {
