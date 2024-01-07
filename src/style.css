@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  background: url("../img/black_texture.png") repeat;
+  background: url("img/black_texture.png") repeat;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   color: var(--color-text);

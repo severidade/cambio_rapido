@@ -6,7 +6,7 @@ const DECIMAL = 2;
 export function createCoinsElement(name, value) {
   const coinEl = document.createElement('li');
   const icon = document.createElement('img');
-  icon.src = '../../img/icons/coin.png';
+  icon.src = 'src/img/icons/coin.png';
 
   coinEl.innerHTML = `
     <figure>${icon.outerHTML}</figure>
