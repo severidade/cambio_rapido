@@ -126,7 +126,7 @@ button {
 .coin_quote {
   display: flex;
   gap: 10px;
-  background: url("../img/black_texture.png") repeat;
+  background: url("img/black_texture.png") repeat;
   padding: 10px;
   justify-content: flex-start;
   align-items: center;
@@ -146,7 +146,8 @@ button {
 figure {
   width: 20px;
   height: 20px;
-  background: url("../src/img/icons/coin.png") no-repeat;
+  background
+  : url("../src/img/icons/coin.png") no-repeat;
   background-position: center center;
   background-size: contain;
 }
